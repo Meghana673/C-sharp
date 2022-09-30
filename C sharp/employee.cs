@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace employee
 {
-    internal class employee
+    public class employee
     {
       
 
