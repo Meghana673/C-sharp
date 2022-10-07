@@ -16,7 +16,7 @@ namespace C_sharp
 
         public static void mobile()
         {
-            Console.WriteLine("mobile validation");
+            Console.WriteLine("Mobile validation");
             string mobile = "9961234427";
             var validate = Regex.IsMatch(mobile, @"^[7-9][0-9]{9}$");
             Console.WriteLine(validate);

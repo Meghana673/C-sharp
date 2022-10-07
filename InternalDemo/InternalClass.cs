@@ -9,21 +9,16 @@ namespace InternalDemo
 {
     internal class InternalClass
     {
-
-
-
             public static void Main()
             {
                 Employee employee = new Employee();
                 employee.eid = 10;
                 employee.ename = "meghana";
-                //department dep = new department();
+                //department dep = new department();  //cannot access because it is internal class
                 Console.WriteLine("Employee Details are");
                 employee.get();
                 Console.WriteLine();
                 Console.WriteLine($"{employee.eid}: {employee.ename}");
-
-
             }
         }
     

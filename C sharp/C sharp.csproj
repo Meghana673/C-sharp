@@ -6,7 +6,7 @@
     <RootNamespace>C_sharp</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>C_sharp.CustomException</StartupObject>
+    <StartupObject>C_sharp.Collections</StartupObject>
   </PropertyGroup>
 
 </Project>

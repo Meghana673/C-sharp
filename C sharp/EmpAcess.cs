@@ -16,9 +16,7 @@ namespace Specifiers
         public void get()
         {
             Console.WriteLine($"Id :{eid}\nName:{ename}");
-        }
-
-        
+        } 
     }
     internal class department
     {

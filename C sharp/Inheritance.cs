@@ -10,23 +10,18 @@ namespace C_sharp
     {
         //protected int salary;
         protected int bonus;
-     
-
         public void Calc(int salary)
         {
             bonus = bonus * salary;
             Console.WriteLine($"Bonus is:{bonus}");
         }
-    }
-   
+    } 
     public class Staff:Bonus
     {
         public void GetBonus()
         {
             bonus = 3;
         }
-
-
     }
     public class Nonstaff:Staff
     {
@@ -34,7 +29,6 @@ namespace C_sharp
         {
             bonus = 2;
         }
-
     }
 
     internal class Inheritance
